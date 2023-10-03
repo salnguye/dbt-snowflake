@@ -16,7 +16,7 @@ models:
   - name: fct_orders
     description: One record per payment
     columns:
-      - name: payment_id
+      - name: order_id
         description: Primary key
         tests:
           - unique
